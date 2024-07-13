@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Merriweather", serif;
+}
+/* bacground-section */
+.cover-container{
+    background-image: url(../images/Banner\ Image.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    height: 600px;
+    width: 1380px;
+    background-size: cover;
+}
+.cover-content{
+    color: white;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 50px;
+}
+.new-year{
+    font-size: 72px;
+}
+.new-year-section{
+    font-size: 32px;
+}
+/* color mixed */
+.holiday{
+    color: #FF0000;
+    font-size: 34px;
+    font-weight: 500;
+}
+/* off-discount main section */
+.red-off{
+    font-size: 88px;
+    font-weight: bolded;
+    color: #FF0000;
+}
+.off{
+    padding: 10px;
+    margin: 10px;
+}
+.catagori{
+    font-size: 50px;
+    font-weight: 800;
+}
+.discount-section{
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+}
+.party-container{
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width: 1320px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.midnight-party{
+    font-size: 64px;
+    color: #ffff;
+}
+.party-text{
+    font-size: 18px;
+    color: #fff;
+}
+.join-now{
+background-color: transparent;
+color: white;
+border: none;
+font-size: 20px;
+font-weight: bold;
+    }
+
+.btn-party{
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.party-2024{
+    padding-right: 50px;
+}
+.party-time{
+    background-color:antiquewhite;
+    text-align: center;
+    padding: 80px;
+    font-size: 32px;
+    margin: 20px 140px;
+}
+.party-red{
+color: #FF0000;
+}
+.party-venue{
+    margin: 10px;
+}
+.comming-soon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 140px;
+    align-items: center;
+}
+.coming-img{
+    margin: 50px;
+    border: 10px #FF0000 solid;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+.new-best{
+    font-size: 24px;
+    font-weight: 400;
+}
+.soon{
+    font-size: 48px;
+    font-weight: 800;
+}
+.coming-pera{
+    color: #070211;
+    font-size: 20px;
+}
+.font-2024{
+    font-size: 48px;
+    color: #FF0000;
+}
+.holiday-container{
+    margin: 20px 140px;
+    width: auto;
+    padding: 50px;
+}
+
+.holiday-title{
+    font-size: 24px;
+    text-align: center;
+}
+.holi50{
+    color: #FF0000;
+}
+.holiday-sale{
+font-size: 72px;
+font-weight: auto;
+margin-top: 0px auto;
+}
+.holiday-title > holiday-sale{
+    font-size: 72px;
+}
+.holiday-pic{
+    margin-top: 10px;
+    padding: 20px;
+    width: 0px 140px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.holiday-description{
+    font-size: 20px;
+    color: #4c4a50;
+    
+}
+.red-line{
+    position: absolute;
+    
+}
+.pic-50{
+    margin: top 100;
+height: 300px;
+width: 300px;
+}
+.red-line{
+    width: 20 auto;
+    border: 140px;
+    align-content: bottom;
+}
+.portfolio{
+    margin: 0px 140px;
+}
+.portfolio-list, ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+ul, li{
+    list-style: none;
+    margin: 0px;
+    align-items: center;
+    gap: 20px;
+}
+.subscribe-section{
+    background-color: rgb(238, 199, 206);
+    padding: 50px 140px;
+    text-align: center;
+    margin: 50px 140px;
+}
+.input-sub{
+    padding: 15px;
+    margin: 25px;
+    border-radius:20px;
+    font-size: 15px;
+    border: none;
+    width: auto;
+    
+}
+.btn-sub{
+    border-radius: right 20px;
+    color: #fff;
+    background-color: #FF0000;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
