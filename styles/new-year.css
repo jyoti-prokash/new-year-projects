@@ -3,6 +3,10 @@
 *{
     font-family: "Merriweather", serif;
 }
+body{
+    max-width: 1380px;
+    margin: 0px auto;
+}
 /* bacground-section */
 .cover-container{
     background-image: url(../images/Banner\ Image.png);
@@ -44,10 +48,6 @@
 .off{
     padding: 10px;
     margin: 10px;
-}
-.catagori{
-    font-size: 50px;
-    font-weight: 800;
 }
 .discount-section{
     text-align: center;
@@ -117,7 +117,6 @@ color: #FF0000;
     border: 10px #FF0000 solid;
     border-radius: 50%;
     padding: 15px;
-
 }
 .new-best{
     font-size: 24px;
@@ -141,7 +140,6 @@ color: #FF0000;
     height: 980px;
     padding: 50px;
 }
-
 .holiday-title{
     font-size: 24px;
     text-align: center;
@@ -150,31 +148,29 @@ color: #FF0000;
     color: #FF0000;
 }
 .holiday-sale{
-font-size: 72px;
-font-weight: auto;
-margin-top: 0px auto;
+    font-size: 72px;
+    font-weight: auto;
+    margin-top: 0px auto;
 }
 .holiday-title > holiday-sale{
     font-size: 72px;
 }
 .holiday-pic{
-    margin-top: 10px;
-    padding: 20px;
-    width: 0px 140px;
+    width: 0px auto;
     display: flex;
-    justify-content: space-evenly;
-
+    justify-content: space-between;
 }
 .holiday-description{
     font-size: 20px;
     color: #4c4a50;
-    
 }
 .red-img{
     position: relative;
     top: -220px;
     z-index: -1;
-    
+}
+.red-img img{
+    width: 100%;
 }
 .pic-50{
     margin: top 100;
@@ -182,7 +178,10 @@ margin-top: 0px auto;
     width: 300px;
     position: relative;
     top: 100px;
-
+    left: -80px;
+}
+.gift-box{
+    width: 80%;
 }
 .red-line{
     width: 20 auto;
@@ -190,13 +189,17 @@ margin-top: 0px auto;
     align-content: bottom;
 }
 .portfolio{
-    margin: 0px 140px;
-    padding: 50px;
+    text-align: start;
+    margin-bottom: 100px;
     /* text-align: center; */
+}
+.portfolio-text{
+    color: rgba(7, 2, 17, 0.6);
+    margin: 40px 0px;
 }
 .portfolio-list{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
 ul, li{
@@ -207,9 +210,8 @@ ul, li{
 }
 .subscribe-section{
     background-color: rgb(238, 199, 206);
-    padding: 50px 140px;
     text-align: center;
-    margin: 50px 140px;
+    margin-bottom: 50px;
 }
 .input-sub{
     padding: 15px;
@@ -217,8 +219,7 @@ ul, li{
     border-radius:20px;
     font-size: 15px;
     border: none;
-    width: auto;
-    
+    width: 250px;
 }
 .btn-sub{
     border-radius: right 20px;
@@ -230,5 +231,6 @@ ul, li{
     border: none;
     cursor: pointer;
 }
+
 
 
